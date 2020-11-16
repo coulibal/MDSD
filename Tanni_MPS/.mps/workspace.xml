@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a0fe831a-efae-4c85-8015-964e8b0955f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/de.thb.mps.language.Junit/generator/source_gen.caches/de/thb/mps/language/Junit/generator/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.thb.mps.language.Junit/generator/source_gen.caches/de/thb/mps/language/Junit/generator/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/de.thb.mps.language.Junit/generator/source_gen.caches/de/thb/mps/language/Junit/generator/templates/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.thb.mps.language.Junit/generator/source_gen.caches/de/thb/mps/language/Junit/generator/templates/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/de.thb.mps.language.Junit/sandbox/models/de.thb.mps.language.Junit.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.thb.mps.language.Junit/sandbox/models/de.thb.mps.language.Junit.sandbox.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +18,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="ca07cedd-b302-4d9b-8537-811df5b55ad0/r:662440f3-3818-4d07-afc6-02861b9874bd(TempModuleca07cedd-b302-4d9b-8537-811df5b55ad0/ConsoleModel_1381087033415900)">
+            <model ref="103ba778-e293-4c77-99f9-f8981dc68fa0/r:5eb53691-4825-4bdd-a7d7-676f74a8d82d(TempModule103ba778-e293-4c77-99f9-f8981dc68fa0/ConsoleModel_15888999957282)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -35,11 +38,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="7SYba2EgRKf">
-                <node concept="3balQm" id="7SYba2EgRKg" role="aymYE" />
-                <node concept="2Clz$F" id="7SYba2EgRKh" role="aymYO" />
-                <node concept="2_V_lH" id="7SYba2EgRKi" role="1PhJh3">
-                  <ref role="2_V_lI" node="7SYba2EgRKh" resolve="CommandHolder" />
+              <node concept="aymSD" id="2okSY2ZwnT$">
+                <node concept="3balQm" id="2okSY2ZwnT_" role="aymYE" />
+                <node concept="2Clz$F" id="2okSY2ZwnTA" role="aymYO" />
+                <node concept="2_V_lH" id="2okSY2ZwnTB" role="1PhJh3">
+                  <ref role="2_V_lI" node="2okSY2ZwnTA" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -69,11 +72,6 @@
       <list>
         <option value="MistraForest" />
       </list>
-    </option>
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$/.." value="master" />
-      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -169,7 +167,25 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="FileSystem" />
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -177,22 +193,6 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c178125b-6aa2-4b97-8316-08556b795538" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="c178125b-6aa2-4b97-8316-08556b795538" />
               <option name="myItemType" value="" />
@@ -201,42 +201,8 @@
               <option name="myItemId" value="de" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ae5a850e-ba76-4e7b-a659-ee8de6219557(de.thb.mps.language.Junit)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.thb.mps.language.Junit.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ae5a850e-ba76-4e7b-a659-ee8de6219557(de.thb.mps.language.Junit)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:76b33026-d35d-477d-bdd2-46a27d77a923(de.thb.mps.language.Junit.editor) in IdeaFile[path: C:/Users/forest/MPSProjects/MDSD/Tanni_MPS/languages/de.thb.mps.language.Junit/models/de.thb.mps.language.Junit.editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ae5a850e-ba76-4e7b-a659-ee8de6219557(de.thb.mps.language.Junit)" />
+              <option name="myItemId" value="r:3f55ce5e-2ce7-4540-b143-48b6a50d2dc1(de.thb.mps.language.Junit.sandbox) in IdeaFile[path: /Users/fcoulibaly/MPSProjects/MDSD/Tanni_MPS/languages/de.thb.mps.language.Junit/sandbox/models/de.thb.mps.language.Junit.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,15 +234,23 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="de.thb.mps.language.Junit.generator" />
+              <option name="myItemId" value="r:a1313390-1f80-45c5-b34f-f9c50e94f34a(de.thb.mps.language.Junit.structure) in IdeaFile[path: /Users/fcoulibaly/MPSProjects/MDSD/Tanni_MPS/languages/de.thb.mps.language.Junit/models/de.thb.mps.language.Junit.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="de" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:17182c5c-7c05-4bd7-b47c-3b0535ea6891(de.thb.mps.language.Junit.generator.templates@generator) in IdeaFile[path: C:/Users/forest/MPSProjects/MDSD/Tanni_MPS/languages/de.thb.mps.language.Junit/generator/templates/de.thb.mps.language.Junit.generator.templates@generator.mps]" />
+              <option name="myItemId" value="c178125b-6aa2-4b97-8316-08556b795538" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,7 +264,29 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:a1313390-1f80-45c5-b34f-f9c50e94f34a(de.thb.mps.language.Junit.structure) in IdeaFile[path: C:/Users/forest/MPSProjects/MDSD/Tanni_MPS/languages/de.thb.mps.language.Junit/models/de.thb.mps.language.Junit.structure.mps]" />
+              <option name="myItemId" value="de.thb.mps.language.Junit.generator" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae5a850e-ba76-4e7b-a659-ee8de6219557(de.thb.mps.language.Junit)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de.thb.mps.language.Junit.generator" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:17182c5c-7c05-4bd7-b47c-3b0535ea6891(de.thb.mps.language.Junit.generator.templates@generator) in IdeaFile[path: /Users/fcoulibaly/MPSProjects/MDSD/Tanni_MPS/languages/de.thb.mps.language.Junit/generator/templates/de.thb.mps.language.Junit.generator.templates@generator.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -307,8 +303,14 @@
               <option name="myItemId" value="de" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:3f55ce5e-2ce7-4540-b143-48b6a50d2dc1(de.thb.mps.language.Junit.sandbox) in IdeaFile[path: C:/Users/forest/MPSProjects/MDSD/Tanni_MPS/languages/de.thb.mps.language.Junit/sandbox/models/de.thb.mps.language.Junit.sandbox.mps]" />
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae5a850e-ba76-4e7b-a659-ee8de6219557(de.thb.mps.language.Junit)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,7 +320,19 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ae5a850e-ba76-4e7b-a659-ee8de6219557(de.thb.mps.language.Junit)" />
+              <option name="myItemId" value="c178125b-6aa2-4b97-8316-08556b795538" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3f55ce5e-2ce7-4540-b143-48b6a50d2dc1(de.thb.mps.language.Junit.sandbox) in IdeaFile[path: /Users/fcoulibaly/MPSProjects/MDSD/Tanni_MPS/languages/de.thb.mps.language.Junit/sandbox/models/de.thb.mps.language.Junit.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9096757365897879384" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -353,6 +367,9 @@
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;@Before&quot; added in JunitTestImpl" />
     <option name="LAST_COMMIT_MESSAGE" value="&quot;@Before&quot; added in JunitTestImpl" />
@@ -366,10 +383,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="120" key="CommitChangelistDialog2/0.0.1920.1040/310.-768.1360.728@0.0.1920.1040" timestamp="1605548639846" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605549459880">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/310.-768.1360.728@0.0.1920.1040" timestamp="1605549459880" />
     <state x="777" y="341" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1605536533404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
