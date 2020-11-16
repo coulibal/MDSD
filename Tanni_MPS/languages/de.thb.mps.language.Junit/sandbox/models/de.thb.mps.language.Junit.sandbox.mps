@@ -27,15 +27,12 @@
   </node>
   <node concept="3kvOla" id="7SYba2EgHXo">
     <property role="TrG5h" value="MyNewJunit" />
-    <node concept="3kvffT" id="7SYba2EgN4B" role="3kvfff" />
-    <node concept="3kvffT" id="7SYba2EgN4D" role="3kvfff" />
-    <node concept="3kvffT" id="7SYba2EgN4G" role="3kvfff" />
-    <node concept="3kvffT" id="7SYba2EgN4K" role="3kvfff" />
-    <node concept="3kvffT" id="7SYba2EgN4P" role="3kvfff" />
-    <node concept="3kvffT" id="7SYba2EgN4V" role="3kvfff" />
-    <node concept="3kvffT" id="7SYba2EgN52" role="3kvfff" />
-    <node concept="3kvffT" id="7SYba2EgN5a" role="3kvfff" />
-    <node concept="3kvffT" id="7SYba2EgN5j" role="3kvfff" />
+    <node concept="3kvffT" id="7SYba2EgS8B" role="3kvfff">
+      <property role="TrG5h" value="RechnerClass" />
+    </node>
+    <node concept="3kvffT" id="7SYba2EgS8D" role="3kvfff">
+      <property role="TrG5h" value="Addition" />
+    </node>
   </node>
 </model>
 
