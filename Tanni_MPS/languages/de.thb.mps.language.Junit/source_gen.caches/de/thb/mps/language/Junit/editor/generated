@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-4tjrsmvfxfn1m0bb3r4axe9kl5avv5y">
-  <files names="EditorAspectDescriptorImpl.java:TestField_Editor.java:TestField_EditorBuilder_a.java:conceptJunit_Editor.java:conceptJunit_EditorBuilder_a.java" />
+<product version="3" modelHash="ccvo93oudwnwmrx8v96x19tmrc9l3xd">
+  <files names="EditorAspectDescriptorImpl.java:conceptJunit_Editor.java:conceptJunit_EditorBuilder_a.java" />
 </product>
 

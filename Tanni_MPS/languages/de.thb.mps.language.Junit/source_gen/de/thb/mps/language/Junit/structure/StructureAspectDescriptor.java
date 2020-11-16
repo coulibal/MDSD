@@ -12,7 +12,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
-  /*package*/ final ConceptDescriptor myConceptTestField = createDescriptorForTestField();
   /*package*/ final ConceptDescriptor myConceptconceptJunit = createDescriptorForconceptJunit();
   private final LanguageConceptSwitch myIndexSwitch;
 
@@ -28,15 +27,13 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptTestField, myConceptconceptJunit);
+    return Arrays.asList(myConceptconceptJunit);
   }
 
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(SConceptId id) {
     switch (myIndexSwitch.index(id)) {
-      case LanguageConceptSwitch.TestField:
-        return myConceptTestField;
       case LanguageConceptSwitch.conceptJunit:
         return myConceptconceptJunit;
       default:
@@ -49,21 +46,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return myIndexSwitch.index(c);
   }
 
-  private static ConceptDescriptor createDescriptorForTestField() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.thb.mps.language.Junit", "TestField", 0xae5a850eba764e7bL, 0xa659ee8de6219557L, 0x7e3e2ca0aa42df59L);
-    b.class_(false, false, false);
-    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
-    b.origin("r:a1313390-1f80-45c5-b34f-f9c50e94f34a(de.thb.mps.language.Junit.structure)/9096757365897879385");
-    b.version(2);
-    return b.create();
-  }
   private static ConceptDescriptor createDescriptorForconceptJunit() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("de.thb.mps.language.Junit", "conceptJunit", 0xae5a850eba764e7bL, 0xa659ee8de6219557L, 0x7e3e2ca0aa4169eaL);
     b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:a1313390-1f80-45c5-b34f-f9c50e94f34a(de.thb.mps.language.Junit.structure)/9096757365897783786");
     b.version(2);
-    b.aggregate("testFied", 0x7e3e2ca0aa42df6fL).target(0xae5a850eba764e7bL, 0xa659ee8de6219557L, 0x7e3e2ca0aa42df59L).optional(true).ordered(true).multiple(true).origin("9096757365897879407").done();
     return b.create();
   }
 }
