@@ -24,6 +24,9 @@
     <node concept="3kvffT" id="7SYba2EgJWD" role="3kvfff">
       <property role="TrG5h" value="TestObjekt" />
     </node>
+    <node concept="3kvffT" id="2okSY2Zwq$f" role="3kvfff">
+      <property role="TrG5h" value="Test_2" />
+    </node>
   </node>
   <node concept="3kvOla" id="7SYba2EgHXo">
     <property role="TrG5h" value="MyNewJunit" />
