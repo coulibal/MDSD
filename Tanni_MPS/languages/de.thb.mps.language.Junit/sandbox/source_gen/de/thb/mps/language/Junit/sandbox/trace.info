@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <root nodeRef="r:3f55ce5e-2ce7-4540-b143-48b6a50d2dc1(de.thb.mps.language.Junit.sandbox)/9096757365897879329">
+    <file name="TestForJunit5.java">
+      <node id="9096757365897879329" at="8,0,9,0" concept="0" trace="underTest" />
+      <node id="9096757365897879329" at="11,0,13,0" concept="1" trace="setUp#()V" />
+      <node id="9096757365897879329" at="15,0,17,0" concept="1" trace="addierenTest#()V" />
+      <scope id="9096757365897879329" at="11,40,11,40" />
+      <scope id="9096757365897879329" at="15,30,15,30" />
+      <scope id="9096757365897879329" at="11,0,13,0" />
+      <scope id="9096757365897879329" at="15,0,17,0" />
+      <unit id="9096757365897879329" at="6,0,19,0" name="de.thb.mps.language.Junit.sandbox.TestForJunit5" />
+    </file>
+  </root>
+  <root nodeRef="r:3f55ce5e-2ce7-4540-b143-48b6a50d2dc1(de.thb.mps.language.Junit.sandbox)/9096757365897879384">
+    <file name="MyNewJunit.java">
+      <node id="9096757365897879384" at="8,0,9,0" concept="0" trace="underTest" />
+      <node id="9096757365897879384" at="11,0,13,0" concept="1" trace="setUp#()V" />
+      <node id="9096757365897879384" at="15,0,17,0" concept="1" trace="addierenTest#()V" />
+      <scope id="9096757365897879384" at="11,40,11,40" />
+      <scope id="9096757365897879384" at="15,30,15,30" />
+      <scope id="9096757365897879384" at="11,0,13,0" />
+      <scope id="9096757365897879384" at="15,0,17,0" />
+      <unit id="9096757365897879384" at="6,0,19,0" name="de.thb.mps.language.Junit.sandbox.MyNewJunit" />
+    </file>
+  </root>
+</debug-info>
+

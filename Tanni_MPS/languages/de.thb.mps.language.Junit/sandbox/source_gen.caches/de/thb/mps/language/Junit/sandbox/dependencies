@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="de.thb.mps.language.Junit.sandbox.MyNewJunit">
+    <classNode dependClassName="java.lang.Exception" />
+  </dependency>
+  <dependency className="de.thb.mps.language.Junit.sandbox.TestForJunit5">
+    <classNode dependClassName="java.lang.Exception" />
+  </dependency>
+</dependenciesRoot>
+
